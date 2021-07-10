@@ -1,0 +1,28 @@
+设置使用者用户名和邮箱
+
+git config --global user.name ""
+git config --global  user.email ""
+git config --list 查看用户信息
+
+git mkdir 创建一个仓库
+cd 切换路径
+cd .. 返回上一级路径
+git init 初始化本地仓库
+
+git add . 从工作区提交到暂存区
+git commit -m "提交说明"   将暂存区内文件提交到版本库
+git push  将本地仓库文件提交到远程仓库
+
+git status  查看所有变更的文件
+
+git remote add gitee仓库名 git@gitee.com:gitee昵称/仓库名.git  关联远程仓库
+
+git clone git@gitee.com:github昵称/仓库名.git   克隆远程仓库
+
+git touch  创建文件
+git pwd 显示当前路径
+git clear 清屏
+
+git history 查看git的每一次操作
+git rm 删除文件
+

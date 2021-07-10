@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #d6e8f4;
+}
+.content {
+    height: 660px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.content_le {
+    float: left;
+    width: 214px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+.content_le a {
+    color: black;
+}
+.content_le .title ,
+.content_le .title1 ,
+.content_le .title2 {
+    color: #900;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    width: 214px;
+    padding-left: 30px;
+    border-bottom: 1px dashed #999;
+
+}
+.content_le ul li:hover {
+    background-color: #900;
+}
+.content_le ul li:hover a {
+    display: inline-block;
+    width: 214px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.content_le ul li {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 214px;
+    padding-left: 30px;
+}
+.photo {
+    margin-top: 2px;
+}
+.photo img {
+    width: 214px;
+    
+}
+.content_con {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 870px;
+    height: 420px;
+    background-color: #fff;
+}
+.content_con a {
+    color: #000;
+}
+.con_top {
+    font-size: 18px;
+    width: 870px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #999;
+}
+.con_top em {
+    display: inline-block;
+    width: 32px;
+    height: 40px;
+    margin: 0 10px 20px 10px;
+    vertical-align: middle;
+}
+.con_top em img {
+    height: 30px;
+    vertical-align: middle;
+    width: 28px;
+}
+.con_top span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.con_top a {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.con_con {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 850px;
+    height: 240px;
+}
+.con_con ul li {
+    position: relative;
+    height: 34px;
+    width: 830px;
+}
+.con_con ul li span {
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    color: #808080;
+    font-size: 14px;
+}
+.con_con ul li a {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+}
+.con_con ul li a:hover {
+    color: red;
+}
+.table {
+    position: absolute;
+    right: -120px;
+    bottom: 10px;
+    font-size: 12px;
+    height: 50px;
+    width: 380px;
+
+}
+.t_sec td>span {
+    display: inline-block;
+    margin: 0 3px;
+}  
+.t_sec td div span {
+    display: inline-block;
+    margin: 0 3px;
+    border: 1px solid #afd5f5;
+}
+.t_sec td div .prev {
+    opacity: 0.5;
+}
+.t_sec td div .next {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.bo {
+    width: 20px;
+}

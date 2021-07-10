@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+.banner {
+    height: 2360px;
+    width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.content {
+    height: 2360px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.content_le {
+    float: left;
+    width: 214px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+.content_le a {
+    color: black;
+}
+.content_le .title ,
+.content_le .title1 ,
+.content_le .title2 {
+    color: #900;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    width: 214px;
+    padding-left: 30px;
+    border-bottom: 1px dashed #999;
+
+}
+.content_le ul li:hover {
+    background-color: #900;
+}
+.content_le ul li:hover a {
+    display: inline-block;
+    width: 214px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.content_le ul li {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 214px;
+    padding-left: 30px;
+}
+.photo {
+    margin-top: 2px;
+}
+.photo img {
+    width: 214px;
+    
+}
+.content_con {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 870px;
+    height: 2300px;
+    background-color: #fff;
+}
+.content_con a {
+    color: #000;
+}
+.con_top {
+    position: relative;
+    
+    font-size: 18px;
+    width: 950px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #999;
+}
+.con_con {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 950px;
+    height: 440px;
+}
+.con_con h5 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: songti;
+}
+.con_con span {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+.con_con p {
+    width: 900px;
+    font-size: 21px;
+}
+.con_con .main ol {
+    text-indent: 0;
+    margin-left: 60px;
+    font-size: 21px;
+}
+.main {
+    margin-top: 30px;
+    line-height: 3em;
+    text-indent: 2em;
+}
+.last {
+    margin-top: 30px;
+    line-height: 3em;
+    text-indent: 4em;
+}
+.last .last_last {
+    text-indent: 6em;
+}

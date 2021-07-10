@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top {
+    height: 50px;
+    margin: 0;
+    line-height: 50px;
+    padding: 0 20px;
+    border-bottom: 1px solid gray;
+}
+.logo {
+    float: left;
+    margin: 0 30px;
+}
+.logo img {
+    height: 50px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.head1 {
+    float: left;
+}
+.head1 ul li {
+    float: left;
+    margin: 0 20px;
+}
+.head2 {
+    float: right;
+}
+.head2 ul li {
+    float: right;
+    margin: 0 20px;
+}
+.head2 ul li button {
+    height: 30px;
+    width: 50px;
+    background-color: #29cead;
+    border: none;
+    border-radius: 7px;
+}
+.box {
+    width: 500px;
+    height: 470px;
+    margin: 40px auto;
+    border: 1px solid #EEEEEE;
+    text-align: center;
+}
+.header {
+    margin-top: 20px;
+}
+.box .p {
+    padding-right: 5px;
+    margin: 10px 0;
+}
+.box p {
+    font-size: 12px;
+    text-align: right;
+}
+.box p a {
+    color:#29cead;
+}
+.box1 input,
+.box2 input{
+    width: 380px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    color: #757575;
+}
+.box3 {
+    margin: 10px 0;
+}
+.box3 button {
+    width: 400px;
+    height: 40px;
+    background-color: #29cead;
+    border-radius: 10px;
+    border: none;
+}
+.box4 {
+    height: 40px;
+    margin-top: 20px;
+}
+.box .box4 .left {
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 14px;
+    color: #29cead;
+}
+.box .box4 .right {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 100px;
+    color: #29cead;
+}
+.box .box5 p {
+    text-align: center;
+}
+ .box5 {
+    background-color: #f8f9f9;
+    border-top: 1px solid #DDDDDD;
+    height: 123px;
+    padding-top: 20px;
+    
+}
+.img {
+    margin: 20px 0;
+}
+.img1 {
+    float: left;
+    margin-left: 180px;
+    margin-right: 30px;
+}
+.img2 {
+    float: left;
+    margin: 0 20px;
+}
+.box5 .img p a {
+    color: black;
+}
+.bottom {
+    height: 400px;
+    background-color: #2F2F2F;
+    position: relative;
+}
+.last {
+    float: left;
+    margin-top: 100px;
+
+}
+.last ul li {
+    float: left;
+}
+
+.fir .fir1 {
+    width: 250px;
+    margin-left: 50px;
+}
+.fir2 {
+    width: 60px;
+    margin-left: 130px;
+}
+.fir3 {
+    width: 60px;
+}
+.sec {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.thr {
+    margin: 0 50px;
+}
+.four {
+    margin: 10px 0 10px 50px ;
+}
+.four dl dt {
+    margin-bottom: 20px;
+}
+.four dl  .biao{
+    margin: 20px 0 0 0;
+}
+.four dl dt a {
+    font-weight: 700px;
+    color:white;
+}
+.four .biao img {
+    width: 40px;
+}
+.four span {
+    display: inline-block;
+    border-bottom: 2px solid #1ABC9C;
+    padding-bottom: 5px;
+}
+.four dl dd {
+    color:#666666;
+}
+table {
+    text-align: left;
+    width: 200px;
+}
+table td {
+    padding-top: 5px;
+}
+table thead td {
+    font-weight: 700px;
+    color: white;
+    padding: 7px 0;
+}
+table thead span {
+    display: inline-block;
+    border-bottom:2px solid #1ABC9C ;
+    padding-bottom: 5px;
+}
+table tbody td {
+    color: #666666;
+}
+.bottom .fif {
+    float: right;
+    padding-top: 10px;
+    width: 40px;
+    height: 145px;
+    margin-top: 120px;
+    margin-right: 10px;
+    background-color: #00c2f0;
+}
+.bottom .fif img {
+    width: 37px;
+}
+.fif span {
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 16px;
+    color: white;
+}
+.fif .dian {
+    margin:0 19px;
+}
+.zuihou {
+    position: absolute;
+    bottom: 0;
+    width: 700px;
+    height: 50px;
+    left: 400px;
+    border-top: 1px solid #3A3A3A;
+}
+.zuihou p {
+    color: #666666;
+}

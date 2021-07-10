@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+.content {
+    height: 480px;
+    width: 100%;
+
+    min-width: 1200px;
+    margin-top: 1px;
+}
+.content_le {
+    float: left;
+    width: 214px;
+    height: 660px;
+    font-size: 14px;
+    margin-left: 17px;
+    overflow: hidden;
+}
+.title1,
+.title {
+    height: 23px;
+}
+.title1 {
+    margin-bottom: 10px;
+}
+.list1,
+.list {
+    margin: 10px 0;
+}
+.list ul li {
+    height: 20px;
+
+}
+ul li a {
+    color: #337ab7;
+}
+
+.content_con {
+    float: left;
+    margin-left: 20px;
+    width: 870px;
+    height: 520px;
+
+}
+.content_con a {
+    color: #000;
+}
+.con_top {
+    font-size: 18px;
+    width: 870px;
+    height: 50px;
+
+}
+.con_top em {
+    display: inline-block;
+    width: 32px;
+    height: 40px;
+    margin: 0 10px 20px 10px;
+    vertical-align: middle;
+}
+.con_top em img {
+    height: 30px;
+    vertical-align: middle;
+    width: 28px;
+}
+.con_top span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.con_top .jiantou {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    margin: 0 5px;
+}
+.con_top a {
+    display: inline-block;
+    height: 50px;
+
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.fayan {
+    position: relative;
+    height: 110px;
+    width: 100%;
+    min-width: 1200px;
+
+}
+
+.fir3 {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fir3 img {
+    height: 30px;
+    width: 34px;
+}
+.sec1 {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    min-width: 1200px;
+    font-size: 12px;
+    text-align: center;
+    background-image: linear-gradient(rgba(228,234,238,0.1),rgba(213,228,237,1));
+}
+.four {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    min-width: 1200px;
+    font-size: 13px;
+    color: #900;
+    font-weight: bold;
+}
+.fif {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    height: 20px;
+    width: 100%;
+    min-width: 1200px;
+    font-size: 12px;
+}
